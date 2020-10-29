@@ -1,0 +1,9 @@
+{:deps {http-kit/http-kit {:mvn/version "2.5.0"},
+        metosin/reitit {:mvn/version "0.5.10"}
+        integrant/integrant {:mvn/version "0.8.0"},
+        hiccup/hiccup {:mvn/version "2.0.0-alpha2"},
+        com.taoensso/timbre {:mvn/version "5.1.0"},
+        metosin/reitit-sieppari {:mvn/version "0.5.10"}
+        ring/ring {:mvn/version "2.0.0-alpha1"}}
+ :aliases {:dev {:extra-paths ["dev"]
+                 :extra-deps {integrant/repl {:mvn/version "0.3.2"}}}}}
